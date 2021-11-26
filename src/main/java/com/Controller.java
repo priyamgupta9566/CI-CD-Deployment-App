@@ -23,7 +23,7 @@ public class Controller
 		System.out.println("");
 		return "Developed by Priyam Gupta";
 	}
-	@RequestMapping(value = "welcome", method = RequestMethod.GET)
+	@RequestMapping(value = "", method = RequestMethod.GET)
 	public String printHello()
 	{
 		String result = Hello() + Welcome() + Developer();
